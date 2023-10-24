@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+h2 {
+  text-align: center;
+}
+.checkBox {
+  width: 20px;
+  height: 20px;
+}
+.checkBox:hover {
+  background-color: #4dfa84;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 22px 40px 60px 40px;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+.table td {
+  border-bottom: 2px solid #f07f46;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.table-head {
+  background-color: #daf5e5;
+}
+
+@media (max-width: 505px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .table {
+    max-width: 100%;
+    width: 100%;
+  }
+  .table th,
+  .table td {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+
+span {
+  padding: 5px;
+}
+
+.AllcheckBox {
+  width: 16px;
+  height: 16px;
+}
+.actions {
+  cursor: pointer;
+}
+#edit:hover {
+  color: #0b59ad;
+  transition: 0.3s;
+}
+.edit-input {
+  border: 2px solid black;
+  padding: 3px;
+}
+@media (max-width: 731px) {
+  .edit-input {
+    width: 60px;
+  }
+}
+#delete:hover {
+  color: rgb(192, 0, 0);
+  transition: 0.3s;
+}
+
+.checked {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+.editData {
+  border-radius: 15px;
+  padding: 3px;
+  margin: 2px;
+  background-color: #fff4e0;
+}
+
+#save:hover {
+  color: #5e7ee6;
+  transition: 0.3s;
+}
+#unsave:hover {
+  color: #f0d92e;
+  transition: 0.3s;
+}

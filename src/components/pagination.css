@@ -1,0 +1,36 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.visit-Page-Button {
+  margin: 25px 5px 0px 0px;
+  width: 25px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: #4396e8;
+  background-color: white;
+  cursor: pointer;
+}
+.visit-Page-Button:hover {
+  color: white;
+  background-color: #4396e8;
+}
+.visit-Page-Button.active {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+.visit-Page-Button {
+  margin: 25px 5px 0px 0px;
+  width: 25px;
+  height: 25px;
+  font-size: 10px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+}
